@@ -96,10 +96,10 @@
     entities:
     - SalvageSpawnerTreasure
     - SalvageSpawnerTreasure
+    - SalvageSpawnerTreasureValuable
     # Begin Harmony Specific Changes - adds equipment Back to lootpool.
     - SalvageSpawnerEquipment
     - SalvageSpawnerEquipment
-    - SalvageSpawnerTreasureValuable
     - SalvageSpawnerEquipmentValuable
     # End Harmony Specific Changes - adds equipment back to lootpool.
   - !type:BiomeEntityLayer
