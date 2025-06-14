@@ -96,7 +96,10 @@
     entities:
     - SalvageSpawnerTreasure
     - SalvageSpawnerTreasure
+    - SalvageSpawnerEquipment #Harmony Specific Change, adds equipment back to the lootpool.
+    - SalvageSpawnerEquipment #Harmony Specific Change, adds equipment back to the lootpool.
     - SalvageSpawnerTreasureValuable
+    - SalvageSpawnerEquipmentValuable #Harmony Specific Change, adds equipment back to the lootpool.
   - !type:BiomeEntityLayer
     allowedTiles:
     - FloorSteel
