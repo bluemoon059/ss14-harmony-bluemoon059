@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2025 V <97265903+formlessnameless@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCybersunOvercoat
+  name: cybersun overcoat
+  description: Heavy black robes with magenta and gold trim. It smells old.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Coats/cybersunovercoat.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/OuterClothing/Coats/cybersunovercoat.rsi
+  - type: TemperatureProtection
+    coolingCoefficient: 0.1

@@ -28,6 +28,8 @@
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
     - id: UnknownShuttleSyndieEvacPod
+    - !type:NestedSelector # DeltaV
+      tableId: UnknownShuttlesFreelanceTableDV
 
 - type: entityTable
   id: UnknownShuttlesHostileTable

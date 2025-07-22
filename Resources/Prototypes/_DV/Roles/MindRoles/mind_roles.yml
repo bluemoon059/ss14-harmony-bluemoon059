@@ -9,3 +9,15 @@
     exclusiveAntag: true
     roleType: TeamAntagonist
   - type: ListeningPostRole
+
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleRecruiter
+  name: Recruiter Role
+  components:
+  - type: MindRole
+    antagPrototype: Recruiter
+    exclusiveAntag: true
+  - type: RecruiterRole
+  - type: RoleBriefing
+    briefing: recruiter-role-briefing

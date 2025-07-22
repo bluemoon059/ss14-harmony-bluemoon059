@@ -72,6 +72,9 @@
   - type: Reflect
   - type: IgnitionSource
     temperature: 700
+  - type: ItemToggleSignatureWriter # imp start
+    activatedFont: AndTheDoorCreeeaked
+    activatedColor: black # imp end
 
 - type: entity
   name: energy sword
@@ -92,6 +95,7 @@
     sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
   - type: StaticPrice
     price: 2500
+  - type: SignatureWriter # imp
 
 - type: entity
   name: energy dagger
@@ -225,6 +229,7 @@
   - type: Tag
     tags:
     - Write
+  - type: SignatureWriter # imp
 
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]

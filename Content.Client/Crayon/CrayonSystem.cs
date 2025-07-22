@@ -61,7 +61,8 @@ public sealed class CrayonSystem : SharedCrayonSystem
                 ("color",_parent.Color),
                 ("state",_parent.SelectedState),
                 ("charges", _parent.Charges),
-                ("capacity",_parent.Capacity)));
+                ("capacity",_parent.Capacity),
+                ("infinite", _parent.Infinite))); // imp
         }
     }
 }

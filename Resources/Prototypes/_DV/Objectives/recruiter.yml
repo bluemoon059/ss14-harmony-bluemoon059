@@ -1,0 +1,56 @@
+# SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 V <97265903+formlessnameless@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
+# SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+- type: entity
+  abstract: true
+  parent: BaseTraitorObjective
+  id: BaseRecruiterObjective
+  components:
+  - type: Objective
+    difficulty: 0 # difficulty is unused
+  - type: RoleRequirement
+    roles:
+    - RecruiterRole
+
+- type: entity
+  parent: [BaseRecruiterObjective, EscapeShuttleObjective]
+  id: RecruiterEscapeObjective
+  description: Assist the syndicate with briefing your recruited operatives on their new goals.
+
+- type: entity
+  parent: BaseRecruiterObjective
+  id: RecruiterRecruitingObjective
+  description: Interview the finest Nanotrasen rejects and have them sign your contract, in blood, with your recruiter pen.
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+      state: icon
+  - type: NumberObjective
+    min: 2
+    max: 5
+    title: objective-recruiting-title
+  - type: RecruitingCondition
+
+- type: entity
+  parent: [BaseRecruiterObjective, BaseStealObjective]
+  id: RecruiterKeepPenObjective
+  components:
+  - type: Objective
+  - type: StealCondition
+    objectiveNoOwnerText: objective-keep-pen-safe-title
+    descriptionText: objective-keep-pen-safe-description
+    verifyMapExistence: false
+    stealGroup: RecruiterPen
+
+- type: stealTargetGroup
+  id: RecruiterPen
+  name: recruiter-pen-name
+  sprite:
+    sprite: _DV/Objects/Misc/recruiter_pen.rsi
+    state: empty
