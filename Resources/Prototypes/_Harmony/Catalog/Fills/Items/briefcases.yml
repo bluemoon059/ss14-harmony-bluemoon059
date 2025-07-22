@@ -1,0 +1,15 @@
+- type: entity
+  id: RecruiterBriefcase
+  parent: CybersunBriefcase
+  suffix: Syndicate, Spesos
+  components:
+  - type: StorageFill
+    contents:
+      - id: SpaceCash30000
+        amount: 1
+      - id: EncryptionKeySyndie
+      - id: RubberStampTrader
+      - id: SyndieHandyFlag
+      - id: SyndicateBusinessCard
+      - id: SyndicateBusinessCard
+      - id: SyndicateBusinessCard
