@@ -1,6 +1,6 @@
 
 ## Entity
-//Harmony Change - For Recruiter Port, allow for certain crayons to be infinite
+##Harmony Change - For Recruiter Port, allow for certain crayons to be infinite
 crayon-drawing-label = Drawing: [color={$color}]{$state}[/color] {$infinite ->
     *[false] ({$charges}/{$capacity})
     [true] {""}
