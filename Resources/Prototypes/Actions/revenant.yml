@@ -65,8 +65,8 @@
   description: Costs 2 Essence per glyph.
   components:
     - type: Action
+      useDelay: 1
       icon: Interface/Actions/blood-writing.png
     - type: InstantAction
       event: !type:RevenantBloodWritingEvent
-      useDelay: 1
 # end imp
