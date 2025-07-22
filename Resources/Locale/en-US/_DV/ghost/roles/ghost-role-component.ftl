@@ -9,4 +9,4 @@ ghost-role-information-recruiter-name = Syndicate Recruiter
 ghost-role-information-recruiter-description = The Syndicate needs to hire new people and you're the best in the business.
 ghost-role-information-recruiter-rules = You are a [color=yellow][bold]Syndicate Recruiter[/bold][/color].
                                          Your mission is to recruit Nanotrasen crewmembers to the Syndicate. Avoid excessive antagonism or destruction.
-                                         Conduct interviews, and have candidates sign a contract in blood.
+                                         Conduct interviews, and have candidates sign a contract in blood. [color=red][bold]Your candidates do not become antagonists - make sure they know this.[/color][/bold].

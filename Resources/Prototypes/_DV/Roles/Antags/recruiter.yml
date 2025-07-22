@@ -16,7 +16,7 @@
 - type: startingGear
   id: SyndicateRecruiterGear
   equipment:
-    jumpsuit: ClothingUniformCybersunAttorney
+    jumpsuit: ClothingUniformJumpsuitSyndicateBusinessSuitHarmony #Harmony Changes, uses our unique business suit
     back: ClothingBackpackSatchel
     head: ClothingHeadHatFedoraBrown
     eyes: ClothingEyesGlassesSunglasses
