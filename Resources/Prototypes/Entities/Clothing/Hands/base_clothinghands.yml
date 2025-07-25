@@ -72,6 +72,11 @@
   - type: Tag
     tags:
     - Ring
+  - type: Engraveable  #Harmony change - adds engraveable component.
+    noEngravingText: "engraving-no-message"
+    engraveSuccessMessage: "engraving-succeed"
+    hasEngravingText: "engraving-has-message"
+
 
 - type: entity
   abstract: true

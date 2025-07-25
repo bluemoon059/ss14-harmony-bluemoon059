@@ -8,11 +8,12 @@
     sprite: _CD/Objects/Misc/dogtags.rsi
     layers:
     - state: dogtag
-  - type: Item
-    size: 1
   - type: Clothing
     sprite: _CD/Objects/Misc/dogtags.rsi
     slots:
     - neck
   - type: Appearance
   - type: Engraveable
+    noEngravingText: "engraving-dogtags-no-message"
+    engraveSuccessMessage: "engraving-dogtags-succeed"
+    hasEngravingText: "engraving-dogtags-has-message"

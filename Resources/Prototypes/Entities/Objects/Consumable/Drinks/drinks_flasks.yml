@@ -9,6 +9,10 @@
       Steel: 300
   - type: FitsInDispenser
     solution: drink
+  - type: Engraveable  #Harmony change - adds Engraveable Component
+    noEngravingText: "engraving-no-message"
+    engraveSuccessMessage: "engraving-succeed"
+    hasEngravingText: "engraving-has-message"
 
 - type: entity
   parent: FlaskBase
