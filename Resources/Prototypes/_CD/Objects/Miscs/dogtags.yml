@@ -2,6 +2,7 @@
   parent: BaseItem
   id: CDDogtags
   name: dogtags
+  suffix: Harmony
   description: A set of dogtags, hanging from a small piece of cord for wearing and carrying.
   components:
   - type: Sprite
