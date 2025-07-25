@@ -19,17 +19,17 @@ public sealed partial class EngraveableComponent : Component
     ///     The inspect text to use when there is no engraving
     /// </summary>
     [DataField]
-    public LocId NoEngravingText = "engraving-no-message";
+    public LocId NoEngravingText = "engraving-no-message"; // Harmony Change - Dogtag message > generic message
 
     /// <summary>
     ///     The message to use when successfully engraving the item
     /// </summary>
     [DataField]
-    public LocId EngraveSuccessMessage = "engraving-succeed";
+    public LocId EngraveSuccessMessage = "engraving-succeed"; // Harmony Change - Dogtag message > generic message
 
     /// <summary>
     ///     The inspect text to use when there is an engraving. The message will be shown seperately afterwards.
     /// </summary>
     [DataField]
-    public LocId HasEngravingText = "engraving-has-message";
+    public LocId HasEngravingText = "engraving-has-message"; // Harmony Change - Dogtag message > generic message
 }
