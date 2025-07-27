@@ -22,17 +22,17 @@ public partial struct StampDisplayInfo
 
     [DataField("stampedColor")]
     public Color StampedColor;
-
+//Imp Change Start
     [DataField("stampLargeIcon")]
-    public string? StampLargeIcon; // imp
+    public string? StampLargeIcon;
 
     [DataField("stampFont")]
-    public string? StampFont; // imp
+    public string? StampFont;
 
     [DataField("hasIcon")]
-    public bool HasIcon = true; // imp
+    public bool HasIcon = true;
 };
-
+//Imp Change End
 [RegisterComponent]
 public sealed partial class StampComponent : Component
 {
