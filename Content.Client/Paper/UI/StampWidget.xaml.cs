@@ -13,6 +13,8 @@ namespace Content.Client.Paper.UI;
 [GenerateTypedNameReferences]
 public sealed partial class StampWidget : PanelContainer
 {
+    private static readonly ProtoId<ShaderPrototype> PaperStamp = "PaperStamp";
+
     private StyleBoxTexture? _borderTexture; //Harmony Change
     private ShaderInstance? _stampShader;
 
@@ -73,7 +75,7 @@ public sealed partial class StampWidget : PanelContainer
                 StampedByLabel.FontOverride = new VectorFont(resCache.GetResource<FontResource>(font.Path), 40);
             }
 
-            _stampShader = prototypes.Index<ShaderPrototype>("PaperStamp").InstanceUnique();
+            _stampShader = prototypes.Index(PaperStamp).InstanceUnique();
             //End of imp changes
         }
     }
@@ -92,7 +94,7 @@ public sealed partial class StampWidget : PanelContainer
         // PanelOverride = _borderTexture;
         //
         // var prototypes = IoCManager.Resolve<IPrototypeManager>();
-        // _stampShader = prototypes.Index<ShaderPrototype>("PaperStamp").InstanceUnique();
+        // _stampShader = prototypes.Index(PaperStamp).InstanceUnique();
         // Harmony Change End
     }
 
