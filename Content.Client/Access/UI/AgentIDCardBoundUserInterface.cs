@@ -26,8 +26,14 @@ namespace Content.Client.Access.UI
             _window.OnNameChanged += OnNameChanged;
             _window.OnJobChanged += OnJobChanged;
             _window.OnJobIconChanged += OnJobIconChanged;
+            _window.OnNumberChanged += OnNumberChanged; // DeltaV
         }
 
+        // DeltaV - Add number change handler
+        private void OnNumberChanged(uint newNumber)
+        {
+            SendMessage(new AgentIDCardNumberChangedMessage(newNumber));
+        }
         private void OnNameChanged(string newName)
         {
             SendMessage(new AgentIDCardNameChangedMessage(newName));
@@ -56,6 +62,7 @@ namespace Content.Client.Access.UI
             _window.SetCurrentName(cast.CurrentName);
             _window.SetCurrentJob(cast.CurrentJob);
             _window.SetAllowedIcons(cast.CurrentJobIconId);
+            _window.SetCurrentNumber(cast.CurrentNumber); // DeltaV
         }
     }
 }
