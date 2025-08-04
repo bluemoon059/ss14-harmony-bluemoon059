@@ -25,3 +25,17 @@
   - type: ConditionalSpawner
     prototypes:
     - MobGlorp
+
+- type: entity
+  name: Hermes Spawner
+  id: SpawnMobHermes
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: scurret
+      sprite: Mobs/Animals/scurret.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobHermes

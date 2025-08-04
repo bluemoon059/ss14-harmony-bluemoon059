@@ -6,3 +6,12 @@
     head: ClothingHeadHatChef
     jumpsuit: ClothingUniformJumpsuitChef
     id: PoquitoIDcard
+
+- type: startingGear
+  id: MobHermesGear
+  equipment:
+    ears: ClothingHeadsetCargo
+    head: ClothingHeadHatBeretSeniorTechnicianHarmony
+    jumpsuit: ClothingUniformTurtleneckColorLightBrown
+    id: HermesIDcard
+    hand: BoxFolderClipboard

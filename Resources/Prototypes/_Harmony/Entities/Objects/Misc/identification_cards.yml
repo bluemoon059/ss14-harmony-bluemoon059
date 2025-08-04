@@ -23,3 +23,16 @@
     - state: orange
   - type: PresetIdCard
     job: PermaPrisoner
+
+- type: entity
+  parent: IDCardStandard
+  id: HermesIDcard
+  name: Hermes ID Card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idcargotechnician
+  - type: PresetIdCard
+    job: CargoTechnician
+    name: Hermes
