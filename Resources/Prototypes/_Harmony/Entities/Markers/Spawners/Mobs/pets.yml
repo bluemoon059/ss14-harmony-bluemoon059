@@ -35,7 +35,7 @@
     layers:
     - state: green
     - state: scurret
-      sprite: Resources/Textures/Mobs/Animals/scurret/scurret.rsi/meta.json
+      sprite: Mobs/Animals/scurret/scurret.rsi
   - type: ConditionalSpawner
     prototypes:
     - MobHermes
