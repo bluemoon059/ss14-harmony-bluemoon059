@@ -83,7 +83,7 @@
   name: Hermes
   parent: MobBaseEmotionalSupportScurret
   id: MobHermes
-  description: Master of logistics, mover of mail, and general loveable scamp - it's Hermes!
+  description: Master of logistics, mover of mail, and general lovable scamp—it's Hermes!
   components:
   - type: GhostRole
     prob: 1
