@@ -96,6 +96,18 @@
       speechSounds: Vox
 
 - type: trait
+  id: HarmonyRaisedByScurrets
+  name: trait-raisedbyscurrets-name
+  description: trait-raisedbyscurrets-desc
+  replaceComponents: true
+  cost: 1
+  category: SpeechTraits
+  components:
+    - type: Speech
+      speechVerb: Wawa
+      speechSounds: Wawa
+
+- type: trait
   id: HarmonyIlleism
   name: trait-illeism-name
   description: trait-illeism-desc
@@ -247,3 +259,20 @@
         Male: UnisexVox
         Female: UnisexVox
         Unsexed: UnisexVox
+
+- type: trait
+  id: HarmonyScurretVocals
+  name: trait-scurretvocals-name
+  description: trait-scurretvocals-desc
+  replaceComponents: true
+  cost: 2
+  category: SpeechTraits
+  components:
+    - type: Speech
+      speechVerb: Wawa
+      speechSounds: Wawa
+    - type: Vocal
+      sounds:
+        Male: Scurret
+        Female: Scurret
+        Unsexed: Scurret

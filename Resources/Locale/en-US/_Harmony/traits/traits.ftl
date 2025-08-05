@@ -22,6 +22,9 @@ trait-raisedbyslimes-desc = You've lived with Slimes for so long that you sound 
 trait-raisedbyvox-name = Raised by Vox
 trait-raisedbyvox-desc = You've lived with Vox for so long that you sound like them. (Replace speech sounds and verbs)
 
+trait-raisedbyscurrets-name = Raised By Scurret
+trait-raisedbyscurrets-desc = You've lived with Scurrets for so long that you sound like them. (Replace speech sounds and verbs)
+
 trait-arachnidvocals-name = Voice of Arachnid
 trait-arachnidvocals-desc = You are somehow able to fully mimic Arachnid speech. (Replace speech sounds, verbs, emotes and emote sounds)
 
@@ -45,6 +48,9 @@ trait-slimevocals-desc = You are somehow able to fully mimic Slime speech. (Repl
 
 trait-voxvocals-name = Voice of Vox
 trait-voxvocals-desc = You are somehow able to fully mimic Vox speech. (Replace speech sounds, verbs, and emote sounds)
+
+trait-scurretvocals-name = Voice Of Scurret
+trait-scurretvocals-desc = You are somehow able to fully mimic Scurret speech. (replace speech sounds, verbs, and emote sounds)
 
 trait-hypophonia-name = Hypophonia
 trait-hypophonia-desc = You can only whisper.
