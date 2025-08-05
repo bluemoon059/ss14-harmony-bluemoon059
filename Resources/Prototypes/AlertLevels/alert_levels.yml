@@ -28,6 +28,15 @@
       emergencyLightColor: Goldenrod
       forceEnableEmergencyLights: true
       shuttleTime: 600
+    #Start Harmony Change - Orange Alert
+    orange:
+      announcement: alert-level-orange-announcement
+      sound: /Audio/_Harmony/Misc/orange.ogg
+      color: "#fc8405"
+      forceEnableEmergencyLights: true
+      emergencyLightColor: "#fc8405"
+      shuttleTime: 600
+    #End Harmony Change - Orange Alert
     red:
       announcement: alert-level-red-announcement
       sound: /Audio/Misc/redalert.ogg

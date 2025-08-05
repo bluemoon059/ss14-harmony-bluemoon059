@@ -2,3 +2,8 @@
   license: "CC-BY-SA-3.0"
   copyright: "Taken from TG station as bloodcult_scribe.ogg"
   source: "https://github.com/tgstation/tgstation/commit/436ba869ebcd0b60b63973fb7562f447ee655205"
+
+- files: ["orange.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Used sound effect from SCP:CB called Alarm5.ogg, modified by BlueMoon059"
+  source: "https://github.com/Regalis11/scpcb/blob/master/SFX/Alarm/Alarm5.ogg"
