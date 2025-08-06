@@ -169,8 +169,8 @@
       tableId: SalvageTreasureSpawnerCommon
   - !type:EntityTableDunGen
   #Start of Harmony specific changes - adds back salvage equipment
-    minCount: 15
-    maxCount: 25
+    minCount: 15 #30 --> 15
+    maxCount: 25 #45 --> 25
     table: !type:NestedSelector
       tableId: SalvageEquipmentSpawnerCommon
   - !type:EntityTableDunGen
