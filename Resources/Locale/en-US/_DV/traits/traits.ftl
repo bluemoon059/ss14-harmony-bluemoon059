@@ -26,3 +26,7 @@ trait-font-unifraktur-desc = Dark, gothic, and maybe a bit too much.
 
 trait-font-wahroonga-name = Wahroonga
 trait-font-wahroonga-desc = Looks like it's your first time picking up a pen.
+
+#accent
+trait-scottish-accent-name = Scottish Accent
+trait-scottish-accent-desc = Fer tha folk who come frae Hielan clan.
