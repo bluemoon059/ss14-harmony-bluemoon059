@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 08/07/2025 19:59:44
+  time: 08/07/2025 20:21:11
   entityCount: 82
 maps: []
 grids:
@@ -66,6 +66,18 @@ entities:
       chunkCollection:
         version: 2
         nodes:
+        - node:
+            color: '#FFFFFFFF'
+            id: Bot
+          decals:
+            14: -1,-2
+            15: 0,-2
+            16: 1,-2
+        - node:
+            color: '#FFFFFFFF'
+            id: Delivery
+          decals:
+            13: 0,-1
         - node:
             color: '#A4610696'
             id: QuarterTileOverlayGreyscale
