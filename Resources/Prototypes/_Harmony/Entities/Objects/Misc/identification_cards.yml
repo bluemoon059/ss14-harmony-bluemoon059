@@ -1,4 +1,4 @@
-﻿# Harmony Poquito ID card
+# Harmony Poquito ID card
 - type: entity
   parent: IDCardStandard
   id: PoquitoIDcard
@@ -36,3 +36,4 @@
   - type: PresetIdCard
     job: CargoTechnician
     name: Hermes
+    
