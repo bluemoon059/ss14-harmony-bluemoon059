@@ -32,8 +32,7 @@
   - type: Sprite
     layers:
     - state: default
-    - state: idcargotechnician
+    - state: idvisitor
   - type: PresetIdCard
-    job: CargoTechnician
+    job: Visitor
     name: Hermes
-    
