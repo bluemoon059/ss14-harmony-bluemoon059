@@ -90,8 +90,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-Hermes-name
-    description: ghost-role-information-Hermes-description
+    name: ghost-role-information-hermes-name
+    description: ghost-role-information-hermes-description
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Butcherable
