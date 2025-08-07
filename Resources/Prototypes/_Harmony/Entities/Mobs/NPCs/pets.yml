@@ -104,6 +104,7 @@
     - CannotSuicide
     - DoorBumpOpener
     - AnomalyHost
+    - CanPilot
   - type: Loadout
     prototypes: [ MobHermesGear ]
   - type: Grammar

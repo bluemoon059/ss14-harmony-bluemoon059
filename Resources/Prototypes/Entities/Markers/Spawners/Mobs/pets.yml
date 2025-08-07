@@ -262,7 +262,6 @@
   - type: ConditionalSpawner
     prototypes:
     - MobRaccoonMorticia
-    - MobHermes #Harmony Change - Adds new QM pet
 
 - type: entity
   parent: MarkerBase

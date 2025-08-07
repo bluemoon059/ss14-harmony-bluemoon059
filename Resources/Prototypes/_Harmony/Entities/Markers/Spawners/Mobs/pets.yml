@@ -28,6 +28,7 @@
 
 - type: entity
   name: Hermes Spawner
+  suffix: DO NOT MAP, Harmony
   id: SpawnMobHermes
   parent: MarkerBase
   components:
