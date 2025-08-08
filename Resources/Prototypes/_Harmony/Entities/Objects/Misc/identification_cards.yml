@@ -14,18 +14,6 @@
 
 - type: entity
   parent: IDCardStandard
-  id: HarmonyPrisonerIDCard
-  name: prisoner ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: orange
-  - type: PresetIdCard
-    job: PermaPrisoner
-
-- type: entity
-  parent: IDCardStandard
   id: HermesIDcard
   name: Hermes ID Card
   components:
