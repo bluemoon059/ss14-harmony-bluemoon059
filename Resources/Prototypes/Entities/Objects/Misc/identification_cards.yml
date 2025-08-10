@@ -580,7 +580,7 @@
     heldPrefix: blue
   - type: PresetIdCard
     job: DeathSquad
-  - type: NanoChatCard # DeltaV
+  - type: NanoChatCard # Harmony - DeltaV NanoChat Port
     listNumber: false
 
 - type: entity
