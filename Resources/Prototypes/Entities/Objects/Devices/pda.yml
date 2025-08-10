@@ -155,7 +155,7 @@
     - NanoTaskCartridge
     - NewsReaderCartridge
     - WantedListCartridge
-    - NanoChatCartridge # DeltaV
+    - NanoChatCartridge # Harmony - DeltaV NanoChat Port
 
 - type: entity
   parent: BasePDA
