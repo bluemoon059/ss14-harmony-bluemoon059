@@ -1479,7 +1479,7 @@
       - NanoTaskCartridge
       - MedTekCartridge
       - AstroNavCartridge # Harmony change to give Syndicate Agent PDA AstroNav
-      - NanoChatCartridge # DeltaV
+      - NanoChatCartridge # Harmony - DeltaV NanoChat Port
 
 - type: entity
   parent: BasePDA
