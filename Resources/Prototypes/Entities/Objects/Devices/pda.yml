@@ -1133,7 +1133,7 @@
       - WantedListCartridge
       - LogProbeCartridge
       - AstroNavCartridge
-      - NanoChatCartridge # DeltaV
+      - NanoChatCartridge # Harmony - DeltaV NanoChat Port
 
 - type: entity
   parent: ERTLeaderPDA
