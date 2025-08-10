@@ -616,7 +616,7 @@
         type: AgentIDCardBoundUserInterface
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
-  - type: NanoChatCard # DeltaV
+  - type: NanoChatCard # Harmony - DeltaV NanoChat Port
     listNumber: false
 
 - type: entity
