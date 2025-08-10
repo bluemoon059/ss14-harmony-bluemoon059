@@ -980,7 +980,7 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
-      - NanoChatCartridge # DeltaV
+      - NanoChatCartridge # Harmony - DeltaV NanoChat Port
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
