@@ -897,6 +897,6 @@
     interfaces:
       enum.AgentIDCardUiKey.Key:
         type: AgentIDCardBoundUserInterface
-  - type: NanoChatCard # DeltaV
+  - type: NanoChatCard # Harmony - DeltaV NanoChat Port
     notificationsMuted: true
     listNumber: false
