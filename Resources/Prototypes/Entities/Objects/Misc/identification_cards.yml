@@ -672,7 +672,7 @@
     tags:
     - NuclearOperative
     - SyndicateAgent
-  - type: NanoChatCard # DeltaV
+  - type: NanoChatCard # Harmony - DeltaV NanoChat Port
     listNumber: false
 
 - type: entity
