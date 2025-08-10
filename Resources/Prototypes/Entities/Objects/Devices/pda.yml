@@ -1100,7 +1100,7 @@
       - NotekeeperCartridge
       - NanoTaskCartridge
       - AstroNavCartridge # Harmony change to give Syndicate PDA AstroNav
-      - NanoChatCartridge # DeltaV
+      - NanoChatCartridge # Harmony - DeltaV NanoChat Port
 
 - type: entity
   parent: BaseSecurityPDA
