@@ -83,7 +83,7 @@
       - NotekeeperCartridge
       - NanoTaskCartridge
       - NewsReaderCartridge
-      - NanoChatCartridge #DeltaV
+      - NanoChatCartridge # Harmony - DeltaV NanoChat Port
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
