@@ -1303,7 +1303,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - LogProbeCartridge
-    - NanoChatCartridge # DeltaV
+    - NanoChatCartridge # Harmony - DeltaV NanoChat Port
 
 - type: entity
   parent: BaseMedicalPDA
