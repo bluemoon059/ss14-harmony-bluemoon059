@@ -797,7 +797,7 @@
     jobTitle: job-title-cluwne
     jobIcon: JobIconCluwne
   - type: Unremoveable
-  - type: NanoChatCard # DeltaV
+  - type: NanoChatCard # Harmony - DeltaV NanoChat Port
     listNumber: false
 
 - type: entity
