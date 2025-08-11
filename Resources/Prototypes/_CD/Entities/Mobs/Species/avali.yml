@@ -23,6 +23,7 @@
   - type: Speech
     speechVerb: Parrot # RMC did it right.
     speechSounds: MaleAvali
+    allowedEmotes: ['Tweets']
   - type: Fixtures
     fixtures:
       fix1:

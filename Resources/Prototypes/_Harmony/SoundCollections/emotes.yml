@@ -1,0 +1,9 @@
+- type: soundCollection
+  id: Tweets
+  files:
+    - /Audio/_Harmony/Voice/Avali/tweets.ogg
+
+- type: soundCollection
+  id: AvaliCry
+  files:
+    - /Audio/_Harmony/Voice/Avali/avali_cry.ogg
