@@ -14,8 +14,10 @@
 
 - type: ninjaHackingThreat
   id: Dragon
+# Start Harmony change - censors dragon spawn to keep threat secret with expanded spawn pool.
   #announcement: terror-dragon
-  announcement: terror-space # Harmony Change - censors dragon spawn to keep threat secret with expanded spawn pool.
+  announcement: terror-space 
+# End Harmony change
   rule: DragonSpawn
 
 - type: ninjaHackingThreat
