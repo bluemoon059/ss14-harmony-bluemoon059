@@ -2,8 +2,8 @@
 - type: weightedRandom
   id: NinjaThreats
   weights:
-    #Dragon: 1
-    #Revenant: 1
+    Dragon: 1
+    Revenant: 1
     #Begin Harmony Change - expanded pool of spawns.
     LoneOp: 0.25
     Wizard: 0.25
