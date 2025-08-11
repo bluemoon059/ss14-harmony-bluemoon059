@@ -22,6 +22,8 @@
 
 - type: ninjaHackingThreat
   id: Revenant
+# Start Harmony change - censors rev spawn to keep threat secret with expanded pool.
   #announcement: terror-revenant
-  announcement: terror-otherworldly #Harmony change - censors rev spawn to keep htreat secret with expanded pool.
+  announcement: terror-otherworldly 
+# End Harmony change
   rule: RevenantSpawn
