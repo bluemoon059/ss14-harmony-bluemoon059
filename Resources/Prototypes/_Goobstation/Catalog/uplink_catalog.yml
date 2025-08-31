@@ -23,6 +23,6 @@
   icon: { sprite: _Goobstation/Objects/Devices/communication.rsi, state: radio-syndiroach }
   productEntity: ReinforcementRadioSyndicateSyndiRoach
   cost:
-    Telecrystal: 3
+    Telecrystal: 6 # Harmony Change - adjusts price to fit our TC ratios.
   categories:
     - UplinkAllies
