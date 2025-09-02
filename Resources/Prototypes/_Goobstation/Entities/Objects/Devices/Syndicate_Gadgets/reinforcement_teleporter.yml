@@ -2,6 +2,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSyndiRoach
   name: syndiroach reinforcement radio
+  suffix: Harmony # Harmony change - Added suffix
   description: Calls in a faithfully trained mothroach with a microbomb to assist you.
   components:
   - type: GhostRole
