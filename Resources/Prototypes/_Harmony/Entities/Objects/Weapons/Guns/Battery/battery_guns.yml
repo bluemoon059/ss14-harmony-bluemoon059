@@ -155,3 +155,31 @@
     autoRechargePause: true
     autoRechargePauseTime: 10
   - type: Appearance
+
+- type: entity
+  name: Diamondback Appraisal Pistol
+  parent: [BaseWeaponPowerCell, BaseSecurityContraband]
+  id: WeaponLaserDiamondback
+  description: A unscrupulous Cargo Technicians best friend.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/appraisal-tool.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Tools/appraisal-tool.rsi
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+    storedOffset: -3,-3
+  - type: PriceGun
+  - type: Tag
+    tags:
+    - AppraisalTool
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Items/appraiser.ogg
