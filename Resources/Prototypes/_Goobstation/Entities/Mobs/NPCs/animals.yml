@@ -2,6 +2,7 @@
   name: syndiroach
   id: MobMothSyndy
   parent: MobMothroach
+  suffix: Harmony
   description: Explosive mothroach. # Harmony change - moth -> mothroach
   components:
   - type: Sprite
