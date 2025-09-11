@@ -37,6 +37,7 @@
   parent: [ClothingEyesBase, BaseCargoContraband]
   id: ClothingEyesGlassesSalvage
   name: salvage goggles
+  suffix: Harmony
   description: Tinted goggles using a proprietary polymer that provides protection from welding-related eye damage.
   components:
   - type: Sprite
