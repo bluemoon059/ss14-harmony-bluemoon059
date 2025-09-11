@@ -35,8 +35,8 @@
 
 - type: entity
   parent: [ClothingEyesBase, BaseCargoContraband]
-  id: ClothingEyesGlassesSalvager
-  name: Salvager Goggles
+  id: ClothingEyesGlassesSalvage
+  name: salvage goggles
   description: Tinted goggles using a proprietary polymer that provides protection from welding-related eye damage.
   components:
   - type: Sprite

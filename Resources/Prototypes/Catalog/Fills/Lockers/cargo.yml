@@ -25,7 +25,7 @@
       prob: 0.3
       rolls: !type:ConstantNumberSelector
         value: 3
-    - id: ClothingEyesGlassesSalvager #Harmony Change - Adds Salv Goggles
+    - id: ClothingEyesGlassesSalvage #Harmony Change - Adds Salv Goggles
 
 - type: entity
   id: LockerSalvageSpecialistFilledHardsuit
