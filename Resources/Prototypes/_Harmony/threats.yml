@@ -7,7 +7,7 @@
   id: Wizard
   announcement: terror-wizard
   rule: WizardSpawn
-
+  
 - type: ninjaHackingThreat
   id: DerelictBorgEngineering
   announcement: terror-space
