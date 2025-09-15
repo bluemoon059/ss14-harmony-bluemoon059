@@ -639,6 +639,11 @@
   id: IonStorm
   components:
   - type: StationEvent
+  #Start Harmony change - Add Announcement to Ion Storm
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    startAnnouncement: station-event-harmony-ion-announcement
+  #End Harmony change - Add Announcement to Ion Storm
     weight: 8
     reoccurrenceDelay: 20
     duration: 1
