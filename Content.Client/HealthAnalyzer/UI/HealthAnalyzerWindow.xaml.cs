@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Numerics;
 using Content.Client.Message;
+using Content.Shared._DV.Traits.Assorted; // DeltaV
 using Content.Shared.Atmos;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Alert;
@@ -35,6 +36,7 @@ namespace Content.Client.HealthAnalyzer.UI
         private readonly SpriteSystem _spriteSystem;
         private readonly IPrototypeManager _prototypes;
         private readonly IResourceCache _cache;
+        private readonly UnborgableSystem _unborgable; // DeltaV
 
         public HealthAnalyzerWindow()
         {
@@ -45,6 +47,7 @@ namespace Content.Client.HealthAnalyzer.UI
             _spriteSystem = _entityManager.System<SpriteSystem>();
             _prototypes = dependencies.Resolve<IPrototypeManager>();
             _cache = dependencies.Resolve<IResourceCache>();
+            _unborgable = _entityManager.System<UnborgableSystem>(); // DeltaV
         }
 
         public void Populate(HealthAnalyzerScannedUserMessage msg)
@@ -109,8 +112,10 @@ namespace Content.Client.HealthAnalyzer.UI
             DamageLabel.Text = damageable.TotalDamage.ToString();
 
             // Alerts
-
-            var showAlerts = msg.Unrevivable == true || msg.Bleeding == true;
+            // DeltaV Start - unborgable.
+            var unborgable = _unborgable.IsUnborgable(target.Value);
+            var showAlerts = msg.Unrevivable == true || msg.Bleeding == true || unborgable;
+            // DeltaV End - unborgable.
 
             AlertsDivider.Visible = showAlerts;
             AlertsContainer.Visible = showAlerts;
@@ -133,7 +138,15 @@ namespace Content.Client.HealthAnalyzer.UI
                     Margin = new Thickness(0, 4),
                     MaxWidth = 300
                 });
-
+            // DeltaV Start - Unborgable
+            if (unborgable)
+                AlertsContainer.AddChild(new RichTextLabel
+                {
+                    Text = Loc.GetString("health-analyzer-window-entity-unborgable-text"),
+                    Margin = new Thickness(0, 4),
+                    MaxWidth = 300
+                });
+            // DeltaV End - Unborgable
             // Damage Groups
 
             var damageSortedGroups =
