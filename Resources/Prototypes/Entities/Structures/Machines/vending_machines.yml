@@ -1451,6 +1451,12 @@
     brokenState: broken
     normalState: normal-unshaded
     denyState: deny-unshaded
+  # Start Harmony Change - Adds voicelines to salv vend
+  - type: DatasetVocalizer
+    dataset: SalvageVendAds
+  - type: SpeakOnUIClosed
+    pack: SalvageVendGoodbyes
+  # Start Harmony Change - Adds voicelines to salv vend
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/mining.rsi
     layers:
