@@ -1160,7 +1160,8 @@
 #MISC. HARDSUITS
 #Clown Hardsuit
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  #parent: ClothingOuterHardsuitBase Harmony Change - parents off of the EVA suit its crafted from instead.
+  parent: SuitEVA #Harmony Change
   id: ClothingOuterHardsuitClown
   name: clown hardsuit
   description: A custom-made clown hardsuit.
@@ -1172,18 +1173,20 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
-  - type: ExplosionResistance
-    damageCoefficient: 0.9
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Caustic: 0.8
+# Start Harmony Change - Remove damage resistance from Clown Suit.
+#  - type: ExplosionResistance
+#    damageCoefficient: 0.9
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Blunt: 0.9
+#        Slash: 0.9
+#        Piercing: 0.9
+#        Caustic: 0.8
+# End Harmony Change - Remove damage resistance from Clown Suit.
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.8 # Harmony Change 0.9 --> 0.8
+    sprintModifier: 0.8 #Harmony Change 0.9 --> 0.8
   - type: HeldSpeedModifier
   - type: Construction
     graph: ClownHardsuit
