@@ -1195,8 +1195,12 @@
 # parent: ClothingHeadHelmetHardsuitSecurity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] #Harmony change : update parent because of the security hardsuits resprite
   id: ClothingHeadHelmetHardsuitClown
-  name: clown hardsuit helmet
-  description: A clown hardsuit helmet.
+  #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+  #name: clown hardsuit helmet
+  name: clown EVA suit helmet
+  #description: A clown hardsuit helmet.
+  description: A clown EVA suit helmet.
+  #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: BreathMask
   - type: Sprite
@@ -1211,8 +1215,12 @@
 # parent: ClothingHeadHelmetHardsuitSecurity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] #Harmony change : update parent because of the security hardsuits resprite
   id: ClothingHeadHelmetHardsuitMime
-  name: mime hardsuit helmet
-  description: A mime hardsuit helmet.
+ #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+  #name: mime hardsuit helmet
+  name: mime EVA suit helmet
+  #description: A mime hardsuit helmet.
+  description: A mime EVA suit helmet.
+ #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: BreathMask
   - type: Sprite

@@ -1161,10 +1161,14 @@
 #Clown Hardsuit
 - type: entity
   #parent: ClothingOuterHardsuitBase Harmony Change - parents off of the EVA suit its crafted from instead.
-  parent: SuitEVA #Harmony Change
+  parent: ClothingOuterEVASuitBase #Harmony Change
   id: ClothingOuterHardsuitClown
-  name: clown hardsuit
-  description: A custom-made clown hardsuit.
+  #Harmony Change Start - hardsuit --> EVA suit, and comments out original name
+  #name: clown hardsuit
+  name: clown EVA suit
+  #description: A custom-made clown hardsuit.
+  description: A custom-made clown EVA suit.
+  #Harmony Change End - hardsuit --> EVA suit, and comments out original name
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
@@ -1198,8 +1202,12 @@
 - type: entity
   parent: ClothingOuterHardsuitClown
   id: ClothingOuterHardsuitMime
-  name: mime hardsuit
-  description: A custom-made mime hardsuit.
+#Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+  #name: mime hardsuit
+  name: mime EVA suit
+  #description: A custom-made mime hardsuit.
+  description: A custom-made mime EVA suit.
+#Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
