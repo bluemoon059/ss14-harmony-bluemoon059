@@ -1197,6 +1197,12 @@
     node: clownHardsuit
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitClown
+  #Harmony Change Start - Adds ContainerContainer
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+  #Harmony Change End - Adds ContainerContainer
 
 #Mime Hardsuit
 - type: entity
