@@ -1188,9 +1188,11 @@
 #        Piercing: 0.9
 #        Caustic: 0.8
 # End Harmony Change - Remove damage resistance from Clown Suit.
-  - type: ClothingSpeedModifier
-    walkModifier: 0.8 # Harmony Change 0.9 --> 0.8
-    sprintModifier: 0.8 #Harmony Change 0.9 --> 0.8
+# Start Harmony Change - comments out movement speed mod.
+#- type: ClothingSpeedModifier
+    #walkModifier: 0.9
+    #sprintModifier: 0.9
+# End Harmony Change - comments out movement speed mod.
   - type: HeldSpeedModifier
   - type: Construction
     graph: ClownHardsuit
