@@ -1160,8 +1160,10 @@
 #MISC. HARDSUITS
 #Clown Hardsuit
 - type: entity
-  #parent: ClothingOuterHardsuitBase Harmony Change - parents off of the EVA suit its crafted from instead.
-  parent: ClothingOuterEVASuitBase #Harmony Change
+ # Harmony Change start - parents off of the EVA suit its crafted from instead.
+  #parent: ClothingOuterHardsuitBase
+  parent: ClothingOuterEVASuitBase
+ # Harmony Change end - parents off of the EVA suit its crafted from instead.
   id: ClothingOuterHardsuitClown
   #Harmony Change Start - hardsuit --> EVA suit, and comments out original name
   #name: clown hardsuit
@@ -1177,7 +1179,7 @@
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
-# Start Harmony Change - Remove damage resistance from Clown Suit.
+# Start Harmony Change - Remove damage resistance and movement speed from Clown Suit.
 #  - type: ExplosionResistance
 #    damageCoefficient: 0.9
 #  - type: Armor
@@ -1187,12 +1189,10 @@
 #        Slash: 0.9
 #        Piercing: 0.9
 #        Caustic: 0.8
-# End Harmony Change - Remove damage resistance from Clown Suit.
-# Start Harmony Change - comments out movement speed mod.
 #- type: ClothingSpeedModifier
     #walkModifier: 0.9
     #sprintModifier: 0.9
-# End Harmony Change - comments out movement speed mod.
+# End Harmony Change - Remove damage resistance and movement speed from Clown Suit.
   - type: HeldSpeedModifier
   - type: Construction
     graph: ClownHardsuit
@@ -1215,7 +1215,7 @@
   name: mime EVA suit
   #description: A custom-made mime hardsuit.
   description: A custom-made mime EVA suit.
-#Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+#Harmony Change end - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi

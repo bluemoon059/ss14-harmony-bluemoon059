@@ -1200,7 +1200,7 @@
   name: clown EVA suit helmet
   #description: A clown hardsuit helmet.
   description: A clown EVA suit helmet.
-  #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+  #Harmony Change end - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: BreathMask
   - type: Sprite
@@ -1220,7 +1220,7 @@
   name: mime EVA suit helmet
   #description: A mime hardsuit helmet.
   description: A mime EVA suit helmet.
- #Harmony Change start - hardsuit --> EVA suit, and comments out original name & description
+ #Harmony Change end - hardsuit --> EVA suit, and comments out original name & description
   components:
   - type: BreathMask
   - type: Sprite
