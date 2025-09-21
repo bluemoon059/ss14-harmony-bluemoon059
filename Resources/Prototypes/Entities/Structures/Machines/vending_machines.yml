@@ -1456,7 +1456,7 @@
     dataset: SalvageVendAds
   - type: SpeakOnUIClosed
     pack: SalvageVendGoodbyes
-  # Start Harmony Change - Adds voicelines to salv vend
+  # End Harmony Change - Adds voicelines to salv vend
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/mining.rsi
     layers:
