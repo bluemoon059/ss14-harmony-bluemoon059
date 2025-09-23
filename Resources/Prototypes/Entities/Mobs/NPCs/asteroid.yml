@@ -385,7 +385,8 @@
     damage:
       types:
         Slash: 7
-        Piercing: 5
+        #Piercing: 5 Harmony Change - Pierce --> Blunt
+        Blunt: 5
   - type: Gun
     fireRate: 0.75
     projectileSpeed: 10.0 # When we get predicted guns and projectiles this should be raised to like 15, 15 mis-predicts too much right now unfortunately.
