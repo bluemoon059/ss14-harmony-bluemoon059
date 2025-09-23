@@ -64,7 +64,8 @@
     damage:
       types:
         Slash: 10
-        Piercing: 10
+        #Piercing: 10 Harmony change pierce --> blunt
+        Blunt: 10
   - type: NpcFactionMember
     factions:
     - SimpleHostile
