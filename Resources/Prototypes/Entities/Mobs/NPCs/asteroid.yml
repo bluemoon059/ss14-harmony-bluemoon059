@@ -67,7 +67,7 @@
         #Harmony Change Start - Pierce --> Blunt
         #Piercing: 10
         Blunt: 10
-        #Harmony Change Start - Pierce --> Blunt
+        #Harmony Change End - Pierce --> Blunt
   - type: NpcFactionMember
     factions:
     - SimpleHostile
@@ -390,7 +390,7 @@
         #Harmony Change Start - Pierce --> Blunt
         #Piercing: 5
         Blunt: 5
-         #Harmony Change End - Pierce --> Blunt
+        #Harmony Change End - Pierce --> Blunt
   - type: Gun
     fireRate: 0.75
     projectileSpeed: 10.0 # When we get predicted guns and projectiles this should be raised to like 15, 15 mis-predicts too much right now unfortunately.
