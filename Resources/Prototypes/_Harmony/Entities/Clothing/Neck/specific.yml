@@ -20,4 +20,3 @@
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
-
