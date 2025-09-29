@@ -15,7 +15,9 @@
     slot: [NECK]
     default: ClothingNeckMantleRainbow
     requireTag: WhitelistChameleonPrideMantle
+    affectedByEmp: false
   - type: UserInterface
     interfaces:
       enum.ChameleonUiKey.Key:
         type: ChameleonBoundUserInterface
+
