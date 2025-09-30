@@ -129,6 +129,7 @@
   - sprite: Mobs/Customization/eyes.rsi
     state: eyes
 
+#Box Change Start - Adds New Marking
 - type: marking
   id: ProtogenMouth
   bodyPart: Eyes
@@ -137,6 +138,7 @@
   sprites:
   - sprite: _DV/Mobs/Customization/SynthLizIPC/head_markings.rsi
     state: protogen_mouth
+#Box Change End - Adds New Marking
 
 # Snouts
 - type: marking
@@ -280,6 +282,7 @@
   - sprite: _DV/Mobs/Customization/SynthLizIPC/snout_markings.rsi
     state: synth_lizard_snout_barless_tert_under_3
 
+#Box Change Start - Adds Several New Markings
 - type: marking
   id: ProtogenSnout
   bodyPart: Snout
@@ -311,6 +314,7 @@
     state: protogen_snout_bolt_1
   - sprite: _DV/Mobs/Customization/SynthLizIPC/snout_markings.rsi
     state: protogen_snout_bolt_2
+#Box Change End - Adds Several New Markings
 
 # Tails
 - type: marking

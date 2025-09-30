@@ -99,9 +99,11 @@ marking-SyntheticLizardHeadF-synth_lizard_head_f = Primary
 marking-SyntheticVulpkaninHead = Vulpkanin Head from Ward-Takahashi
 marking-SyntheticVulpkaninHead-vulp_head = Primary
 
+# Box Change Start - replaces protogen screen with protogen mouth
 # Eyes
 marking-ProtogenMouth = Protogen Mouth
 marking-ProtogenMouth-protogen_mouth = Primary
+# Box Change End - replaces protogen screen with protogen mouth
 
 marking-SyntheticIPCEyes = Anthropomorphic Eyes
 marking-SyntheticIPCEyes-eyes = Primary
