@@ -1,8 +1,10 @@
-- type: marking
-  id: MobIPCEyesDefault
-  bodyPart: Eyes
-  markingCategory: Eyes
-  speciesRestriction: []
-  sprites:
-  - sprite: Mobs/Customization/eyes.rsi
-    state: no_eyes
+#Box Change Start - Removes a null default marking that DV added.
+#- type: marking
+#  id: MobIPCEyesDefault
+#  bodyPart: Eyes
+#  markingCategory: Eyes
+#  speciesRestriction: []
+#  sprites:
+#  - sprite: Mobs/Customization/eyes.rsi
+#    state: no_eyes
+#Box Change End - Removes a null default marking that DV added
