@@ -11,3 +11,4 @@ loadout-group-librarian-neck = Librarian neck
 # Cargo
 loadout-group-salvage-specialist-neck = Salvage specialist neck
 loadout-group-salvage-specialist-id = Salvage specialist ID
+loadout-group-quartermaster-backpack = Quartermaster Backpack

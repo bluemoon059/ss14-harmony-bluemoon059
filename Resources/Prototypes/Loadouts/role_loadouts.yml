@@ -211,7 +211,8 @@
   - QuartermasterHead
   - QuartermasterNeck
   - QuartermasterJumpsuit
-  - CargoTechnicianBackpack
+# - CargoTechnicianBackpack - Harmony Change, replaced with QM backpack group.
+  - QuartermasterBackpack
   - QuartermasterOuterClothing
   - QuartermasterShoes
   - Glasses

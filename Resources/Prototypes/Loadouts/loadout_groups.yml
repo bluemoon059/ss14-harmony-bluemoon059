@@ -674,6 +674,7 @@
   minLimit: 0
   loadouts:
   - QuartermasterWintercoat
+  - QuartermasterAntiqueCoat
 
 - type: loadoutGroup
   id: QuartermasterShoes
@@ -681,6 +682,7 @@
   loadouts:
   - BrownShoes
   - CargoWinterBoots
+  - SalvageBoots # Harmony Change - QM Can Wear Salvage Boots
 
 - type: loadoutGroup
   id: CargoTechnicianHead

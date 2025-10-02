@@ -1,0 +1,5 @@
+# OuterClothing
+- type: loadout
+  id: QuartermasterAntiqueCoat
+  equipment:
+    outerClothing: ClothingOuterCoatQMAntique

@@ -30,4 +30,9 @@
     sprite: _Harmony/Clothing/OuterClothing/Coats/detective_disco.rsi
   - type: Clothing
     sprite: _Harmony/Clothing/OuterClothing/Coats/detective_disco.rsi
-    
+
+- type: entity
+  parent: ClothingOuterCoatPirate
+  id: ClothingOuterCoatQMAntique
+  name: quartermaster's antique overcoat
+  description: A coat thats stood the test of time. From a bygone era of selling wrenches and ripping up vending machines. A loose speso note hangs out of the pocket.
