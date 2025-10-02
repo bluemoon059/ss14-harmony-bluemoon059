@@ -674,7 +674,7 @@
   minLimit: 0
   loadouts:
   - QuartermasterWintercoat
-  - QuartermasterAntiqueCoat
+  - QuartermasterAntiqueCoat # Harmony Change - adds new coat
 
 - type: loadoutGroup
   id: QuartermasterShoes
