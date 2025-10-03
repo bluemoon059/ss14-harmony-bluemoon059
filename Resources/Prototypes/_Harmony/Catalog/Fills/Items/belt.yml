@@ -20,3 +20,15 @@
     containers:
       storagebase: !type:NestedSelector
         tableId: BeltBrigmedHarmonyEntityTable
+
+- type: entity
+  id: ClothingBeltUtilityCargo
+  parent: ClothingBeltUtility
+  suffix: Cargo, Harmony
+  components:
+  - type: StorageFill
+    contents:
+      - id: CrowbarGreen
+      - id: Wrench
+      - id: Screwdriver
+      - id: AppraisalTool
