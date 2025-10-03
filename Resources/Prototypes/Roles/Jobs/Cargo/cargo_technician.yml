@@ -19,8 +19,9 @@
 - type: startingGear
   id: CargoTechGear
   equipment:
+    belt: ClothingBeltUtilityCargo # Harmony Change - Adds Cargo Utility Belt
     ears: ClothingHeadsetCargo
-    pocket1: AppraisalTool
+    #pocket1: AppraisalTool # Harmony Change - Moves to utility belt
   #storage:
     #back:
     #- Stuff
