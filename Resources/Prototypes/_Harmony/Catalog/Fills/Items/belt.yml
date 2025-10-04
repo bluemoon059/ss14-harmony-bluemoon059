@@ -22,8 +22,8 @@
         tableId: BeltBrigmedHarmonyEntityTable
 
 - type: entity
-  id: ClothingBeltUtilityCargo
   parent: ClothingBeltUtility
+  id: ClothingBeltUtilityCargo
   suffix: Cargo, Harmony
   components:
   - type: StorageFill
