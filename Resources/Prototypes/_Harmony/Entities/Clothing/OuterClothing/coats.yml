@@ -37,3 +37,20 @@
   name: quartermaster's antique overcoat
   suffix: harmony
   description: A coat thats stood the test of time. From a bygone era of selling wrenches and ripping up vending machines. A loose speso note hangs out of the pocket.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/OuterClothing/Coats/qm_antique.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/OuterClothing/Coats/qm_antique.rsi
+
+- type: entity
+  parent: ClothingOuterCoatPirate
+  id: ClothingOuterCoatQMGreed
+  name: quartermaster's greed
+  suffix: harmony
+  description: A coat thats stood the test of time. From a bygone era of selling wrenches and ripping up vending machines. A loose speso note hangs out of the pocket.
+  components:
+  - type: Sprite
+    sprite: _Harmony/Clothing/OuterClothing/Coats/qm_greed.rsi
+  - type: Clothing
+    sprite: _Harmony/Clothing/OuterClothing/Coats/qm_greed.rsi
