@@ -8,6 +8,24 @@
       path: /Audio/_CD/Voice/Avali/avali_scream.ogg
     Laugh:
       path: /Audio/_CD/Voice/Avali/avali_laugh.ogg
+#Start Harmony Change - New SFX
+    Gasp:
+      path: /Audio/_Harmony/Voice/Avali/avali_gasp.ogg
+    Crying:
+      path: /Audio/_Harmony/Voice/Avali/avali_cry.ogg
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Yawn:
+      collection: MaleYawn
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
+    Whistle:
+      collection: Whistles
+    Sigh:
+      collection: MaleSigh
+#End Harmony Change - New SFX
 
 - type: emoteSounds
   id: FemaleAvali
@@ -18,3 +36,21 @@
       path: /Audio/_CD/Voice/Avali/avali_scream.ogg
     Laugh:
       path: /Audio/_CD/Voice/Avali/avali_laugh.ogg
+#Start Harmony Change - New SFX
+    Gasp:
+      path: /Audio/_Harmony/Voice/Avali/avali_gasp.ogg
+    Crying:
+      path: /Audio/_Harmony/Voice/Avali/avali_cry.ogg
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Yawn:
+      collection: FemaleYawn
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp
+    Whistle:
+      collection: Whistles
+    Sigh:
+      collection: FemaleSigh
+#End Harmony Change - New SFX
