@@ -2,7 +2,7 @@ using Content.Shared.Access.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
-using Content.Shared.Radio; /// Harmony Change - For Radio Message
+using Content.Shared.Radio; // Harmony Change - For Radio Message
 
 namespace Content.Shared.Access.Components;
 
@@ -43,7 +43,7 @@ public sealed partial class ExpireIdCardComponent : Component
     [DataField]
     public LocId? ExpireMessage;
 
-    /// Harmony Change Start - Radio Channel for Temp IDs
+    // Harmony Change Start - Radio Channel for Temp IDs
 
     /// <summary>
     /// Line spoken by the card on a radio channel when it expires
@@ -61,6 +61,7 @@ public sealed partial class ExpireIdCardComponent : Component
     /// Decides if we want to call a radio or not, off by default.
     /// </summary>
     [DataField]
-    public bool AlertRadio = false;
-    /// Harmony Change End
+    public bool AlertRadio;
+
+    // Harmony Change End
 }
