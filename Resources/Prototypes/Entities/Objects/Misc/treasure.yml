@@ -175,14 +175,15 @@
       Steel: 100
       Silver: 200
 #End Harmony Change - Make Scrappable
+# Start Harmony Change - Make Coins Stackable
 # - type: StaticPrice Harmony Change StaticPrice --> StackPrice
   - type: StackPrice
     price: 135 #Harmony Change - 125 -> 135. Makes Price Match Material Price Output
-# Start Harmony Change - Make Coins Stackable
   - type: Stack
     stackType: TreasureCoinSilver
     count: 1
 # End Harmony Change - Make Coins Stackable
+
 - type: entity
   parent: TreasureCoinIron
   id: TreasureCoinGold
@@ -234,7 +235,7 @@
     materialComposition:
       Steel: 300
       Diamond: 15
-# End Harmony Changes - Make Scrappable
+#End Harmony Changes - Make Scrappable
   - type: StackPrice # Harmony Change StaticPrice --> StackPrice
     price: 500
 # Start Harmony Change - Makes Coins Stackable
