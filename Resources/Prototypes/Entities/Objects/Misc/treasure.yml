@@ -155,14 +155,13 @@
     materialComposition:
       Steel: 300
     #End Harmony Change - Make Scrappable
- #- type: StaticPrice Harmony Change StaticPrice --> StackPrice
- # Start Harmony Change - Makes Coins Stackable
-  - type: StackPrice
+  - type: StackPrice # Harmony Change StaticPrice --> StackPrice
     price: 75
+  # Start Harmony Change - Makes Coins Stackable
   - type: Stack
     stackType: TreasureCoinIron
     count: 1
- # End Harmony Change - Makes Coins Stackable
+  # End Harmony Change - Makes Coins Stackable
 
 - type: entity
   parent: TreasureCoinIron
@@ -196,8 +195,7 @@
       Steel: 100
       Gold: 200
 #End Harmony Change - Make Scrappable
-#  - type: StaticPrice Harmony Change - StaticPrice --> StackPrice
-  - type: StackPrice
+  - type: StackPrice # Harmony Change StaticPrice --> StackPrice
     price: 175
 #Stary Harmony Change - Make Coins Stackable
   - type: Stack
@@ -217,8 +215,7 @@
       Steel: 400
       Diamond: 5
 #End Harmony Changes - Make Scrappable
-#  - type: StaticPrice Harmony Change - StaticPrice --> StackPrice
-  - type: StackPrice
+  - type: StackPrice # Harmony Change StaticPrice --> StackPrice
     price: 250
 # Start Harmony Change - Make Coins Stackable
   - type: Stack
@@ -238,8 +235,7 @@
       Steel: 300
       Diamond: 15
 # End Harmony Changes - Make Scrappable
-#  - type: StaticPrice Harmony Change - StaticPrice --> StackPrice
-  - type: StackPrice
+  - type: StackPrice # Harmony Change StaticPrice --> StackPrice
     price: 500
 # Start Harmony Change - Makes Coins Stackable
   - type: Stack
